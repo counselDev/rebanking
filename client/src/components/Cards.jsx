@@ -70,13 +70,13 @@ const Cards = () => {
           <span className="block text-gray-500">Locations</span>
         </div>
 
-        <div className="flex flex-col justify-center p-8 bg-white shadow rounded-lg">
+        <div className="flex flex-col justify-center p-6 bg-white shadow rounded-lg">
           <div className="flex items-center  gap-6 mb-2">
             <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-blue-600 bg-blue-100 rounded-full">
               <MdOutlinePaid size={29} />
             </div>
             {cardStats ? (
-              <span className="block text-2xl font-bold">
+              <span className="block text-lg font-bold">
                 {moneyFormat.format(cardStats.totalSaved)}
               </span>
             ) : (

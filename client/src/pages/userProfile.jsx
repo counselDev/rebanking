@@ -23,10 +23,10 @@ const UserProfile = () => {
   }, []);
 
   return userInfo ? (
-    <div className="">
+    <div className="pb-16">
       <CustomHeader title={`${userInfo.firstname} ${userInfo.lastname}`} />
 
-      <div className="px-6 py-4">
+      <div className="px-6 py-4 mb-12">
         <div className="bg-indigo-500 p-4 rounded-xl text-white my-4">
           <h4 className="text-center">Avialable Balance</h4>
 

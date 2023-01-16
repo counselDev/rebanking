@@ -15,7 +15,7 @@ const Transaction = ({ transaction }) => {
         <div className="flex flex-col ">
           {user.role !== "customer" && (
             <Link
-              to={`/agents/user/${transaction.customer?._id}`}
+              to={user.role === "agent" ? `/agents/user/${transaction.customer?._id}` : `/admin/transactions/`}
               className="text-gray-600 font-semibold"
             >
               {transaction.customer?.firstname} {transaction.customer?.lastname}
