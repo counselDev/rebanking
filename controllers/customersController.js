@@ -50,7 +50,7 @@ const createCustomer = async (req, res) => {
         <p>Email: ${email}</p>
         <p>Password: ${password}</p>
 
-        <a href=https://uninterested-top-coat-bat.cyclic.app/">Login Here</a>
+        <a href=https://jolly-plum-pullover.cyclic.app/">Login Here</a>
 
         <br />
         <p>Cheers!!</p>

@@ -43,7 +43,7 @@ const createUser = async (req, res) => {
         <p>Email: ${email}</p>
         <p>Password: ${password}</p>
 
-        <a href="http://locahost:3000/login?users">Login Here</a>
+        <a href="https://jolly-plum-pullover.cyclic.app/">Login Here</a>
 
         <br />
         <p>Cheers!!</p>
@@ -142,7 +142,7 @@ const getAllUsers = async (req, res) => {
         ...user._doc,
         numOfTransactions,
         totalSaved,
-        zone
+        zone,
       };
     })
   );
